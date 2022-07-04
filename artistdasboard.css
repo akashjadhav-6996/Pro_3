@@ -1,0 +1,94 @@
+nav {
+  background-color: cornflowerblue;
+  color: black;
+  grid-area: nav;
+}
+
+nav ul {
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+  float: right;
+  padding: 10px;
+}
+main {
+  background-color: antiquewhite;
+  grid-area: main;
+  text-align: left;
+  color: blueviolet;
+  font-size: 25px;
+}
+#c1 {
+  grid-area: c1;
+}
+#c2 {
+  grid-area: c2;
+
+  text-transform: uppercase;
+}
+#c2 h1 {
+  grid-area: c2;
+
+  text-decoration: underline;
+  font-style: italic;
+}
+#c3 {
+  grid-area: c3;
+  text-transform: uppercase;
+  color: crimson;
+  font-size: xx-large;
+  text-decoration: underline;
+}
+#c5 {
+  grid-area: c5;
+  text-transform: uppercase;
+}
+#c4 {
+  grid-area: c4;
+  text-transform: uppercase;
+}
+footer {
+  grid-area: f;
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+}
+
+.logo {
+  font-size: 20px;
+
+  float: left;
+}
+
+.container {
+  background-color: antiquewhite;
+  display: grid;
+  height: 100vh; /*View port height*/
+  grid-template-columns: 1.5fr 1.5fr 1.5fr;
+  grid-template-rows: 0.2fr 0.5fr 1.5fr 0.5fr 1fr 0.3fr;
+  grid-template-areas:
+    "nav nav nav "
+    "c3 c3 c3 "
+    "c1 main main "
+    "c2 c2 c2"
+    "c5 c4 c4"
+    "f f f";
+  grid-gap: 0.2rem;
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 0.4fr 0.4fr 0.4fr 1fr 0.3fr;
+    grid-template-areas:
+      "nav"
+      "c3"
+      "c1"
+      "main"
+      "c2"
+      "c5"
+      "c4"
+      "f";
+  }
+}

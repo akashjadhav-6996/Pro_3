@@ -73,15 +73,20 @@
         //     }
         // }
 
-        const picture = document.querySelector("#picture");
-        var img = "";
-        picture.addEventListener("change", function () {
-            const reader = new FileReader();
-            reader.addEventListener("load", () => {
-                img = reader.result;
-            })
-            reader.readAsDataURL(this.files[0]);
-        })
+        // const picture = document.querySelector("#picture");
+        // var img = "";
+        // picture.addEventListener("change", function () {
+        //     const reader = new FileReader();
+        //     reader.addEventListener("load", () => {
+        //         img = reader.result;
+        //     })
+        //     reader.readAsDataURL(this.files[0]);
+        // })
+
+        // var arr = [];
+        // for (var i = 0; i < img.length; i = i + 10) {
+        //     arr.push(img.substring(i, i + 10))
+        // }
     </script>
 
     <script>
@@ -91,6 +96,20 @@
 
         $(document).ready(function () {
 
+            const picture = document.querySelector("#picture");
+            var img = "";
+            picture.addEventListener("change", function () {
+                const reader = new FileReader();
+                reader.addEventListener("load", () => {
+                    img = reader.result;
+                })
+                reader.readAsDataURL(this.files[0]);
+            })
+
+            var arr = [];
+            for (var i = 0; i < img.length; i = i + 10) {
+                arr.push(img.substring(i, i + 10))
+            }
 
             $('input[name="role"]').click(function () {
                 var test = $(this).val();
@@ -117,7 +136,7 @@
                     Address: $("#address").val(),
                     Password: $("#password").val(),
                     C_Password: $("#Cpassword").val(),
-                    Profile_Pic: img,
+                    Profile_Pic: $.arr,
 
                 })
 
@@ -130,6 +149,8 @@
             //         Profile_Pic: img,
             //     }
         }
+
+
 
         )
 

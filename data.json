@@ -117,7 +117,104 @@
       "Password": "456",
       "C_Password": "456",
       "id": 10
+    },
+    {
+      "Role": "Artist",
+      "Name": "Prince",
+      "Email": "P@gmail.com",
+      "Art_Form": "Singing",
+      "Contact_No": "6547893215",
+      "Gender": "Female",
+      "Address": "Bihar",
+      "Password": "321456",
+      "C_Password": "321456",
+      "id": 11
+    },
+    {
+      "Role": "Artist",
+      "Name": "ramanujan",
+      "Art_Form": "Painter",
+      "Gender": "Male",
+      "Email": "ram@gmail.com",
+      "Contact_No": "369874125",
+      "Address": "Pune",
+      "Password": "321",
+      "C_Password": "321",
+      "id": 12
+    },
+    {
+      "Role": "Artist",
+      "Name": "kalam",
+      "Art_Form": "Dance",
+      "Gender": "Male",
+      "Email": "kalam@gmail.com",
+      "Contact_No": "321",
+      "Address": "pune",
+      "Password": "147",
+      "C_Password": "147",
+      "id": 13
+    },
+    {
+      "Role": "Artist",
+      "Name": "sss",
+      "Art_Form": "Dance",
+      "Gender": "Male",
+      "Email": "akashramujadhav@gmail.com",
+      "Contact_No": "22221",
+      "Address": "fsd",
+      "Password": "222",
+      "C_Password": "222",
+      "id": 14
     }
   ],
-  "User": []
+  "User": [
+    {
+      "Role": "User",
+      "Name": "AKASH JADHAV",
+      "Email": "akashramujadhav@gmail.com",
+      "Profession": "Worker",
+      "Contact_No": "7507347206",
+      "Gender": "Male",
+      "Address": "Pune",
+      "Password": "Jadhav",
+      "C_Password": "Jadhav",
+      "id": 1
+    },
+    {
+      "Role": "User",
+      "Name": "Shashank",
+      "Email": "sp@gmail.com",
+      "Profession": "Student",
+      "Contact_No": "5896321474",
+      "Gender": "Male",
+      "Address": "Barshi",
+      "Password": "Diwate",
+      "C_Password": "Diwate",
+      "id": 2
+    },
+    {
+      "Role": "User",
+      "Name": "dgdfg",
+      "Email": "aesrfsf",
+      "Profession": "Mali",
+      "Contact_No": "1234567895",
+      "Gender": "Female",
+      "Address": "rada",
+      "Password": "258963",
+      "C_Password": "258963",
+      "id": 3
+    },
+    {
+      "Role": "User",
+      "Name": "mohit",
+      "Email": "as@gmail.com",
+      "Profession": "devloper",
+      "Contact_No": "1236548996",
+      "Gender": "Male",
+      "Address": "pune",
+      "Password": "321",
+      "C_Password": "321",
+      "id": 4
+    }
+  ]
 }
