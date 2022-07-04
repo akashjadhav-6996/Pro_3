@@ -1,0 +1,123 @@
+{
+  "Artist": [
+    {
+      "Role": "Artist",
+      "Name": "sdfsdf",
+      "Art_Form": "Dance",
+      "Gender": "Male",
+      "Email": "akashramujadhav@gmail.com",
+      "Contact_No": "456987",
+      "Address": "dfcdzcc",
+      "Password": "123",
+      "C_Password": "123",
+      "Profile_Pic": "C:\\fakepath\\1637590557109.jpg",
+      "id": 1
+    },
+    {
+      "Role": "Artist",
+      "Name": "asdfg gdfhf",
+      "Art_Form": "Dance",
+      "Gender": "Male",
+      "Email": "akashramujadhav@gmail.com",
+      "Contact_No": "456987",
+      "Address": "sad",
+      "Password": "zzz",
+      "C_Password": "zzz",
+      "id": 2
+    },
+    {
+      "Role": "Artist",
+      "Name": "sdsf",
+      "Art_Form": "Singing",
+      "Gender": "Male",
+      "Email": "akashramujadhav@gmail.com",
+      "Contact_No": "456987",
+      "Address": "ass",
+      "Password": "aaa",
+      "C_Password": "aaa",
+      "id": 3
+    },
+    {
+      "Role": "Artist",
+      "Name": "sdsf",
+      "Art_Form": "Singing",
+      "Gender": "Male",
+      "Email": "akashramujadhav@gmail.com",
+      "Contact_No": "456987",
+      "Address": "ass",
+      "Password": "aaa",
+      "C_Password": "aaa",
+      "id": 4
+    },
+    {
+      "Role": "Artist",
+      "Name": "sd",
+      "Art_Form": "Dance",
+      "Gender": "Male",
+      "Email": "dsad@gmail.com",
+      "Contact_No": "456987",
+      "Address": "wefsf",
+      "Password": "111",
+      "C_Password": "111",
+      "Profile_Pic": "C:\\fakepath\\1637590641054.jpg",
+      "id": 5
+    },
+    {
+      "Name": "",
+      "Art_Form": "",
+      "Email": "",
+      "Contact_No": "",
+      "Address": "",
+      "Password": "",
+      "C_Password": "",
+      "Profile_Pic": "C:\\fakepath\\1637590574133.jpg",
+      "id": 6
+    },
+    {
+      "Name": "",
+      "Art_Form": "",
+      "Email": "",
+      "Contact_No": "",
+      "Address": "",
+      "Password": "",
+      "C_Password": "",
+      "Profile_Pic": "C:\\fakepath\\1637590557109.jpg",
+      "id": 7
+    },
+    {
+      "Name": "",
+      "Art_Form": "",
+      "Email": "",
+      "Contact_No": "",
+      "Address": "",
+      "Password": "",
+      "C_Password": "",
+      "Profile_Pic": "C:\\fakepath\\1637590557109.jpg",
+      "id": 8
+    },
+    {
+      "Name": "",
+      "Art_Form": "",
+      "Email": "",
+      "Contact_No": "",
+      "Address": "",
+      "Password": "",
+      "C_Password": "",
+      "Profile_Pic": "C:\\fakepath\\1637590641054.jpg",
+      "id": 9
+    },
+    {
+      "Role": "Artist",
+      "Name": "AKASH JADHAV",
+      "Art_Form": "Dance",
+      "Gender": "Male",
+      "Email": "akashramujadhav@gmail.com",
+      "Contact_No": "5555",
+      "Address": "pkmk",
+      "Password": "456",
+      "C_Password": "456",
+      "id": 10
+    }
+  ],
+  "User": []
+}
